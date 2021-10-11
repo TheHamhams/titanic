@@ -14,3 +14,4 @@ def understanding(df):
         elif df[col].dtype == 'object':
             sns.barplot(df[col].value_counts().index,df[col].value_counts()).set_title(col)
             plt.show()
+            
